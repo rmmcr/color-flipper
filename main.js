@@ -45,11 +45,20 @@ let type = "name";
 let simple = document.getElementById("simple").checked;
 let hex = document.getElementById("hex").checked;
 
-document
-  .getElementById("simple")
-  .addEventListener("click", () => (type = "name"));
+randomColor = colors[Math.round(Math.random() * 8)];
+main.style.backgroundColor = randomColor.name;
+tempColor = randomColor;
+color.innerText = tempColor.name;
 
-document.getElementById("hex").addEventListener("click", () => (type = "hex"));
+document.getElementById("simple").addEventListener("click", () => {
+  type = "name";
+  color.innerText = tempColor.name;
+});
+
+document.getElementById("hex").addEventListener("click", () => {
+  type = "hex";
+  color.innerText = tempColor.hex;
+});
 
 button.addEventListener("click", () => {
   randomColor = colors[Math.round(Math.random() * 8)];
