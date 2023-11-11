@@ -1,38 +1,38 @@
 const colors = [
   {
-    name: "red",
+    name: "Red",
     hex: "#ff0000",
   },
   {
-    name: "green",
+    name: "Green",
     hex: "#008000",
   },
   {
-    name: "yellow",
+    name: "Yellow",
     hex: "#ffff00",
   },
   {
-    name: "blue",
+    name: "Blue",
     hex: "#0000ff",
   },
   {
-    name: "pink",
+    name: "Pink",
     hex: "#ffc0cb",
   },
   {
-    name: "gray",
+    name: "Gray",
     hex: "#808080",
   },
   {
-    name: "brown",
+    name: "Brown",
     hex: "#a52a2a",
   },
   {
-    name: "orange",
+    name: "Orange",
     hex: "#ffa500",
   },
   {
-    name: "purple",
+    name: "Purple",
     hex: "#800080",
   },
 ];
